@@ -1,0 +1,43 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333;
+}
+
+li, a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+ul {
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 20px 70px;
+    background-color: #181818;
+    align-items: center;
+}
+
+nav li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+li a {
+    transition: 0.7s ease;
+}
+
+li a:hover {
+    color: #8758ff;
+}
+
+.logo-nav {
+    font-size: 2rem;
+}
