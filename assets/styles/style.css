@@ -58,10 +58,15 @@ li a:hover {
     background-color: #f2f2f2;
 }
 
-main {
-    padding: 50px 0;
+main .konten-fadelyang {
     display: flex;
     flex-direction: row;
+    width: 100%;
+}
+
+main {
+    /* display: flex;
+    flex-direction: column; */
     color: #f2f2f2;
     background-color: #8758ff;
     justify-content: center;
@@ -73,12 +78,25 @@ figure img{
     border-radius: 10px;
 }
 
-main article {
+main .konten-fadelyang {
     line-height: 150%;
-    padding-top: 100px;
-    width: 50%;
+    padding: 50px 0;
+    /* width: 50%; */
     justify-content: center;
     /* margin: 0 auto; */
+}
+
+main .about-article {
+    width: 100%;
+}
+
+.second-conent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    padding: 50px 100px 50px 100px;
+    margin: 0 auto;
 }
 
 .about {
@@ -90,10 +108,19 @@ article p {
     line-height: 150%;
 }
 
+header .logo-nav.active {
+    display: none;
+}
+
 @media screen and (max-width: 950px) {
     .about {
         font-size: 36px;
     }
+
+    .second-conent {
+        padding: 50px 0 50px 0;
+    }
+    
 }
 
 @media screen and (max-width: 800px) {
@@ -113,6 +140,14 @@ article p {
 
     .nav-menu {
         display: none;
+    }
+
+    .nav-menu.active {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 0;
+        font-size: 14px;
     }
 
     main figure img {
@@ -156,11 +191,10 @@ article p {
         font-size: 1.5rem;
     }
 
-    main {
+    main .second-conent {
         display: flex;
         flex-direction: column;
         text-align: center;
-        justify-content: center;
     }
 
     article {
@@ -242,7 +276,7 @@ figcaption {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 50px 0;
+    background-color: #333;
 }
 
 .konten-fadelyang figure img {
