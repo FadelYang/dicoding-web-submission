@@ -5,7 +5,7 @@
 https://fadelyang.github.io/dicoding-web-submission/
 
 I built this website with HTML CSS, and Javascript
-- use Semnatic HTML
+- use Semantic HTML
 - flexbox in CSS for layouting
 - and Javascript for add navigation bar feature in mobile screen
 
